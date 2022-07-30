@@ -1,0 +1,201 @@
+/* for xtra xtra large device start */
+@media (min-width:1400px) {
+    #main .main-body header h3 {
+        font-size: 40px;
+    }
+
+    #main .main-body header h4 {
+        font-size: 16px;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+}
+
+/* for xtra xtra large device end */
+
+
+/* for xtra large device start */
+@media (min-width:1200px) and (max-width:1399.99px) {
+    #main .main-body header h3 {
+        font-size: 40px;
+    }
+
+    #main .main-body header h4 {
+        font-size: 16px;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+}
+
+/* for xtra large device end */
+
+
+
+/* for large device start */
+@media (min-width:992px) and (max-width:1199.99px) {
+    #main .main-body header h3 {
+        font-size: 40px;
+    }
+
+    #main .main-body header h4 {
+        font-size: 16px;
+    }
+
+    #main .main-body main {
+        padding: 0 30px;
+    }
+
+    #main .main-body main form {
+        width: 100%;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+}
+
+/* for large device end */
+
+
+/* for medium device start */
+@media (min-width:768px) and (max-width:991.99px) {
+    #main .main-body {
+        width: 85%;
+    }
+
+    #main .main-body header {
+        padding: 15px 20px 30px;
+    }
+
+    #main .main-body header h3 {
+        font-size: 40px;
+    }
+
+    #main .main-body header h4 {
+        font-size: 16px;
+    }
+
+    #main .main-body main {
+        padding: 0 30px;
+    }
+
+    #main .main-body main form {
+        width: 100%;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+}
+
+/* for medium device end */
+
+
+
+/* for small device start */
+@media (min-width:576px) and (max-width:767.99px) {
+    #main .main-body {
+        width: 85%;
+    }
+
+    #main .main-body header {
+        padding: 15px 20px 30px;
+    }
+
+    #main .main-body header h3 {
+        font-size: 40px;
+    }
+
+    #main .main-body header h4 {
+        font-size: 16px;
+    }
+
+    #main .main-body main {
+        padding: 0 30px;
+    }
+
+    #main .main-body main form {
+        width: 100%;
+    }
+
+    #main .main-body main form .gender-field label {
+        margin-right: 10px;
+    }
+
+    #main .main-body main form .gender-field input {
+        margin-right: 0px;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/* for small device end */
+
+
+
+
+/* for xtra small device start */
+@media (max-width:575.99px) {
+    #main .main-body header {
+        padding: 15px 20px 30px;
+    }
+
+    #main .main-body header h3 {
+        font-size: 35px;
+        padding-top: 20px;
+    }
+
+    #main .main-body header h4 {
+        font-size: 14px;
+        padding-bottom: 30px;
+    }
+
+    #main .main-body main {
+        padding: 0 0px;
+    }
+
+    #main .main-body main form {
+        width: 95%;
+    }
+
+    #main .main-body main form .gender-field .mobile-gen {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #main .main-body main form .gender-field label {
+        margin-right: 25px;
+    }
+
+    #main .main-body main form .button button {
+        margin-top: 30px;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media (min-width:497px) and (max-width:575.99px) {
+    #main .main-body main form .gender-field .mobile-gen {
+        display: inline-block;
+    }
+}
+
+/* for xtra small device end */

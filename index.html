@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <section id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto main-body">
+                    <header class="text-center">
+                        <h3>Registration form</h3>
+                        <h4>Please fill your information bellow</h4>
+                    </header>
+                    <main>
+                        <form action="#" method="post">
+                            <div class="form-item box-item form-field">
+                                <input type="text" placeholder="username" id="username">
+                                <div class="error-msg" id="user-err"></div>
+                            </div>
+            
+                            <div class="form-item box-item form-field">
+                                <input type="email" placeholder="example@mail.com" id="email">
+                                <div class="error-msg" id="email-err"></div>
+                            </div>
+            
+                            <div class="form-item box-item form-field pass-show">
+                                <input type="password" placeholder="enter your password" id="password">
+                                <button onclick="pass_show()" type="button" id="hide"><i class="fa-solid fa-eye-slash"></i></button>
+                                <div class="error-msg" id="pass-err"></div>
+                            </div>
+            
+                            <div class="form-item box-item form-field cpass-show">
+                                <input type="password" placeholder="confirm your password" id="cpassword">
+                                <button onclick="cpass_show()" type="button" id="chide"><i
+                                        class="fa-solid fa-eye-slash"></i></button>
+                                <div class="error-msg" id="cpass-err"></div>
+                            </div>
+            
+                            <div class="form-item box-item gender-field" id="gender-field">
+                                <label for="Select Gender" class="mobile-gen">Select Your Gender :</label>
+                                <input type="radio" name="Gender" value="Male" id="">
+                                <label for="genderm">Male</label>
+                                <input type="radio" name="Gender" value="Female" id="genderf">
+                                <label for="genderf">Female</label>
+                                <input type="radio" name="Gender" value="others" id="gendero">
+                                <label for="gendero">Others</label>
+                                <div class="error-msg" id="gender-err"></div>
+                            </div>
+            
+                            <div class="button">
+                                <button onclick="return signin()" type="submit">Sign Up</button>
+                            </div>
+                        </form>
+                    </main>
+                    <footer>
+                        <p>Already have an account? <a href="#">Login here</a></p>
+                    </footer>
+                    <i class="wave"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

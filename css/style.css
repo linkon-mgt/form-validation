@@ -1,0 +1,231 @@
+/*====== common css start========*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url(../font/PTS76F.ttf);
+}
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.428571429;
+  font-weight: 400;
+  color: #fff;
+  background: linear-gradient(to right, #41295a, #2f0743);
+}
+
+/*====== common css end========*/
+#main {
+  background: linear-gradient(to right, #41295a, #2f0743);
+  padding-bottom: 50px;
+}
+#main .main-body {
+  background-color: #3D4067;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 5px 0 5px #2f0743, -5px 0 5px #41295a;
+}
+#main .main-body header {
+  display: block;
+  position: relative;
+  z-index: 1;
+  padding: 15px 48px 30px;
+}
+#main .main-body header h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #fff;
+  font-family: "PT Sans", sans-serif;
+}
+#main .main-body header h4 {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: "PT Sans", sans-serif;
+}
+#main .main-body main {
+  display: block;
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  padding: 0 48px;
+  display: flex;
+  justify-content: center;
+}
+#main .main-body main form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+}
+#main .main-body main form .form-item input[type=text],
+#main .main-body main form .form-item [type=email],
+#main .main-body main form .form-item [type=passward] {
+  display: block;
+  color: #E2E3E8;
+  font-size: 16px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border: 1px solid #75759E;
+  padding: 8px 0 8px 15px;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+#main .main-body main form .box-item {
+  height: 55px;
+  margin-bottom: 5px;
+}
+#main .main-body main form .form-field {
+  margin-bottom: 15px;
+}
+#main .main-body main form .form-field input {
+  width: 100%;
+  padding: 8px 15px;
+  border-radius: 5px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border: 1px solid #75759E;
+  padding: 8px 0 8px 15px;
+}
+#main .main-body main form .form-field input::-moz-placeholder {
+  color: #cacaca;
+}
+#main .main-body main form .form-field input:-ms-input-placeholder {
+  color: #cacaca;
+}
+#main .main-body main form .form-field input::placeholder {
+  color: #cacaca;
+}
+#main .main-body main form .form-field .error-msg {
+  color: #FFC23C;
+  font-size: 16px;
+  margin-top: 5px;
+  text-transform: capitalize;
+}
+#main .main-body main form .pass-show,
+#main .main-body main form .cpass-show {
+  position: relative;
+}
+#main .main-body main form .pass-show button,
+#main .main-body main form .cpass-show button {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  font-size: 15px;
+  background-color: #3D4067;
+  border: #3D4067;
+  outline: #3D4067;
+}
+#main .main-body main form .pass-show button i,
+#main .main-body main form .cpass-show button i {
+  color: #fff;
+  font-size: 12px;
+  background-color: #3D4067;
+  border: 1px solid #3D4067;
+  outline: 1px solid #3D4067;
+}
+#main .main-body main form .pass-show button i:hover,
+#main .main-body main form .cpass-show button i:hover {
+  color: skyblue;
+}
+#main .main-body main form .gender-field label {
+  color: #cacaca;
+  margin-right: 30px;
+}
+#main .main-body main form .gender-field input {
+  margin-right: 5px;
+}
+#main .main-body main form .button {
+  text-align: center;
+}
+#main .main-body main form .button button {
+  background: linear-gradient(to right, #e96443, #904e95);
+  width: 70%;
+  border: none;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  font-family: "PT Sans", sans-serif;
+}
+#main .main-body footer {
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #524F81;
+  padding: 16px;
+  align-self: center;
+  text-align: center;
+  margin-top: 32px;
+}
+#main .main-body footer p {
+  color: #cacaca;
+}
+#main .main-body footer p a {
+  color: #cacaca;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: "PT Sans", sans-serif;
+}
+#main .main-body footer p a:hover {
+  text-decoration: underline;
+}
+#main .main-body .wave {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 800px;
+  height: 800px;
+  margin-top: -600px;
+  margin-left: -400px;
+  background: #252E45;
+  border-radius: 40%;
+  -webkit-animation: shift 20s infinite linear;
+  animation: shift 20s infinite linear;
+  z-index: 0;
+}
+@-webkit-keyframes shift {
+  from {
+    transform: rotate(360deg);
+  }
+}
+@keyframes shift {
+  from {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=style.css.map */

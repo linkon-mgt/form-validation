@@ -1,0 +1,40 @@
+/*====== common css start========*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src: url(../font/PTS76F.ttf);
+}
+
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.428571429;
+    font-weight: 400;
+    color: #fff;
+    background: linear-gradient(to right, #41295a, #2f0743);
+
+}
+
+
+/*====== common css end========*/

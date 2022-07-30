@@ -1,0 +1,220 @@
+#main {
+    background: linear-gradient(to right, #41295a, #2f0743);
+    padding-bottom: 50px;
+
+
+    .main-body {
+        background-color: #3D4067;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 50px;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 5px 0 5px #2f0743, -5px 0 5px #41295a;
+
+        header {
+            display: block;
+            position: relative;
+            z-index: 1;
+            padding: 15px 48px 30px;
+
+            h3 {
+                font-size: 30px;
+                font-weight: 700;
+                margin-bottom: 8px;
+                color: #fff;
+                font-family: "PT Sans", sans-serif;
+            }
+
+            h4 {
+                font-size: 18px;
+                font-weight: 400;
+                letter-spacing: 1px;
+                color: #fff;
+                font-family: "PT Sans", sans-serif;
+            }
+        }
+
+        main {
+            display: block;
+            position: relative;
+            z-index: 1;
+            flex: 1;
+            padding: 0 48px;
+            display: flex;
+            justify-content: center;
+
+            form {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                width: 80%;
+
+                .form-item {
+
+                    input[type=text],
+                    [type=email],
+                    [type=passward] {
+                        display: block;
+                        color: #E2E3E8;
+                        font-size: 16px;
+                        width: 100%;
+                        background-color: transparent;
+                        border: none;
+                        border: 1px solid #75759E;
+                        padding: 8px 0 8px 15px;
+                        border-radius: 5px;
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                        appearance: none;
+                        outline: none;
+                    }
+                }
+
+                .box-item {
+                    height: 55px;
+                    margin-bottom: 5px;
+                }
+
+                .form-field {
+                    margin-bottom: 15px;
+
+                    input {
+                        width: 100%;
+                        padding: 8px 15px;
+                        border-radius: 5px;
+                        outline: none;
+                        background-color: transparent;
+                        border: none;
+                        border: 1px solid #75759E;
+                        padding: 8px 0 8px 15px;
+
+                        &::placeholder {
+                            color: #cacaca;
+                        }
+                    }
+
+                    .error-msg {
+                        color: #FFC23C;
+                        font-size: 16px;
+                        margin-top: 5px;
+                        text-transform: capitalize;
+                    }
+
+                }
+
+                .pass-show,
+                .cpass-show {
+                    position: relative;
+
+                    button {
+                        position: absolute;
+                        top: 7px;
+                        right: 7px;
+                        font-size: 15px;
+                        background-color: #3D4067;
+                        border: #3D4067;
+                        outline: #3D4067;
+
+                        i {
+                            color: #fff;
+                            font-size: 12px;
+                            background-color: #3D4067;
+                            border: 1px solid #3D4067;
+                            outline: 1px solid #3D4067;
+
+                            &:hover {
+                                color: skyblue;
+                            }
+                        }
+                    }
+                }
+
+                .gender-field {
+                    label {
+                        color: #cacaca;
+                        margin-right: 30px;
+                    }
+
+                    input {
+                        margin-right: 5px;
+                    }
+                }
+
+                .button {
+                    text-align: center;
+
+                    button {
+                        background: linear-gradient(to right, #e96443, #904e95);
+                        width: 70%;
+                        border: none;
+                        font-size: 20px;
+                        padding: 10px 15px;
+                        border-radius: 5px;
+                        color: #fff;
+                        font-weight: 600;
+                        font-family: "PT Sans", sans-serif;
+                    }
+                }
+
+            }
+        }
+
+        footer {
+            display: block;
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            border-radius: 10px;
+            background-color: #524F81;
+            padding: 16px;
+            align-self: center;
+            text-align: center;
+            margin-top: 32px;
+
+            p {
+                color: #cacaca;
+
+                a {
+                    color: #cacaca;
+                    font-weight: 700;
+                    text-decoration: none;
+                    font-family: "PT Sans", sans-serif;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        .wave {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 800px;
+            height: 800px;
+            margin-top: -600px;
+            margin-left: -400px;
+            background: #252E45;
+            border-radius: 40%;
+            -webkit-animation: shift 20s infinite linear;
+            animation: shift 20s infinite linear;
+            z-index: 0;
+
+            @-webkit-keyframes shift {
+                from {
+                    transform: rotate(360deg);
+                }
+            }
+
+            @keyframes shift {
+                from {
+                    transform: rotate(360deg);
+                }
+            }
+        }
+    }
+}
