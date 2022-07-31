@@ -166,7 +166,12 @@ body {
 #main .main-body main form .gender-field input {
   margin-right: 5px;
 }
-#main .main-body main form .button .animated-button {
+#main .main-body main form .button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#main .main-body main form .button .sign-up-button .animated-button {
   background: linear-gradient(-30deg, #0b1b3d 50%, #2f0743 50%);
   padding: 15px 70px;
   margin: 12px;
@@ -185,7 +190,7 @@ body {
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
   position: relative;
 }
-#main .main-body main form .button .animated-button::before {
+#main .main-body main form .button .sign-up-button .animated-button::before {
   content: "";
   position: absolute;
   top: 0px;
@@ -196,13 +201,13 @@ body {
   opacity: 0;
   transition: 0.2s opacity ease-in-out;
 }
-#main .main-body main form .button .animated-button:hover::before {
+#main .main-body main form .button .sign-up-button .animated-button:hover::before {
   opacity: 0.2;
 }
-#main .main-body main form .button .animated-button span {
+#main .main-body main form .button .sign-up-button .animated-button span {
   position: absolute;
 }
-#main .main-body main form .button .animated-button span:nth-child(1) {
+#main .main-body main form .button .sign-up-button .animated-button span:nth-child(1) {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -227,7 +232,7 @@ body {
     transform: translateX(-100%);
   }
 }
-#main .main-body main form .button .animated-button span:nth-child(2) {
+#main .main-body main form .button .sign-up-button .animated-button span:nth-child(2) {
   top: 0px;
   right: 0px;
   height: 100%;
@@ -252,7 +257,7 @@ body {
     transform: translateY(-100%);
   }
 }
-#main .main-body main form .button .animated-button span:nth-child(3) {
+#main .main-body main form .button .sign-up-button .animated-button span:nth-child(3) {
   bottom: 0px;
   left: 0px;
   width: 100%;
@@ -277,7 +282,7 @@ body {
     transform: translateX(100%);
   }
 }
-#main .main-body main form .button .animated-button span:nth-child(4) {
+#main .main-body main form .button .sign-up-button .animated-button span:nth-child(4) {
   top: 0px;
   left: 0px;
   height: 100%;
@@ -301,6 +306,27 @@ body {
   100% {
     transform: translateY(100%);
   }
+}
+#main .main-body main form .button .button-or h2 {
+  font-size: 30px;
+  color: #ddd;
+}
+#main .main-body main form .button .social-button .button-text {
+  padding-bottom: 10px;
+}
+#main .main-body main form .button .social-button .button-text h5 {
+  font-size: 14px;
+  font-weight: 300;
+  color: #ddd;
+  font-family: "PT Sans";
+}
+#main .main-body main form .button .social-button .button-link .button-link-item {
+  height: 20px;
+  width: 20px;
+  margin: 0 12px;
+}
+#main .main-body main form .button .social-button .button-link .button-link-item a img {
+  width: 100%;
 }
 #main .main-body footer {
   display: block;

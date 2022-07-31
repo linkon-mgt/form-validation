@@ -137,6 +137,27 @@
     #main .main-body main form .gender-field input {
         margin-right: 0px;
     }
+    #main .main-body main form .button .sign-up-button .animated-button {
+        padding: 20px 100px;
+    }
+    #main .main-body main form .button{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+  .button-or{
+    margin: 20px 0;
+  }
+  #main .main-body main form .button .social-button {
+	padding: 15px 30px;
+}
+#main .main-body main form .button .social-button .button-link .button-link-item {
+	height: 30px;
+	width: 30px;
+	margin: 0 25px;
+}
+#main .main-body main form .button .social-button .button-text {
+	padding-bottom: 20px;
+}
     html,
     body {
         overflow-x: hidden;
@@ -183,8 +204,14 @@
 
     #main .main-body main form .button{
         margin-top: 50px;
+        flex-direction: column;
     }
-
+  .button-or{
+    margin: 20px 0;
+  }
+  #main .main-body main form .button .social-button {
+	padding: 15px 30px;
+}
     html,
     body {
         overflow-x: hidden;

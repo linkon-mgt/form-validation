@@ -8,7 +8,7 @@
     <title>Registration Form</title>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -30,25 +30,26 @@
                                 <input type="text" placeholder="username" id="username">
                                 <div class="error-msg" id="user-err"></div>
                             </div>
-            
+
                             <div class="form-item box-item form-field">
                                 <input type="email" placeholder="example@mail.com" id="email">
                                 <div class="error-msg" id="email-err"></div>
                             </div>
-            
+
                             <div class="form-item box-item form-field pass-show">
                                 <input type="password" placeholder="enter your password" id="password">
-                                <button onclick="pass_show()" type="button" id="hide"><i class="fa-solid fa-eye-slash"></i></button>
+                                <button onclick="pass_show()" type="button" id="hide"><i
+                                        class="fa-solid fa-eye-slash"></i></button>
                                 <div class="error-msg" id="pass-err"></div>
                             </div>
-            
+
                             <div class="form-item box-item form-field cpass-show">
                                 <input type="password" placeholder="confirm your password" id="cpassword">
                                 <button onclick="cpass_show()" type="button" id="chide"><i
                                         class="fa-solid fa-eye-slash"></i></button>
                                 <div class="error-msg" id="cpass-err"></div>
                             </div>
-            
+
                             <div class="form-item box-item gender-field" id="gender-field">
                                 <label for="Select Gender" class="mobile-gen">Select Your Gender :</label>
                                 <input type="radio" name="Gender" value="Male" id="">
@@ -59,13 +60,38 @@
                                 <label for="gendero">Others</label>
                                 <div class="error-msg" id="gender-err"></div>
                             </div>
-            
-                            <div class="button text-center">
-                                <button onclick="return signin()" type="submit" class="animated-button"><span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    Sign Up</button>
+
+                            <div class="button">
+                                <div class="sign-up-button">
+                                    <button onclick="return signin()" type="submit"
+                                        class="animated-button"><span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        Sign Up</button>
+                                </div>
+                                <div class="button-or">
+                                    <h2>or</h2>
+                                </div>
+                                <div class="social-button">
+                                    <div class="button-text text-center">
+                                        <h5>Sign Up With</h5>
+                                    </div>
+                                    <div class="button-link d-flex justify-content-between">
+                                        <div class="button-link-item">
+                                            <a href="#"><img src="images/github.svg" alt="github" class="w-100 img-fluid"></a>
+                                        </div>
+                                        <div class="button-link-item">
+                                            <a href="#"><img src="images/google.svg" alt="google" class="w-100 img-fluid"></a>
+                                        </div>
+                                        <div class="button-link-item">
+                                            <a href="#"><img src="images/linkedin.svg" alt="linkedin" class="w-100 img-fluid"></a>
+                                        </div>
+                                        <div class="button-link-item">
+                                          <a href="#">  <img src="images/facebook.svg" alt="facebook" class="w-100 img-fluid"></a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </form>
                     </main>
