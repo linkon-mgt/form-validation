@@ -31,13 +31,12 @@ body {
   line-height: 1.428571429;
   font-weight: 400;
   color: #fff;
-  background: linear-gradient(to right, #41295a, #2f0743);
 }
 
 /*====== common css end========*/
 #main {
   background: linear-gradient(to right, #41295a, #2f0743);
-  padding-bottom: 50px;
+  padding-bottom: 180px;
 }
 #main .main-body {
   background-color: #3D4067;
