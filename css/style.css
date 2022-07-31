@@ -169,12 +169,14 @@ body {
 #main .main-body main form .button {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 #main .main-body main form .button .sign-up-button .animated-button {
   background: linear-gradient(-30deg, #0b1b3d 50%, #2f0743 50%);
-  padding: 15px 70px;
-  margin: 12px;
+  padding: 20px 180px;
+  margin: 12px auto 40px;
   display: inline-block;
   transform: translate(0%, 0%);
   overflow: hidden;
@@ -308,22 +310,24 @@ body {
   }
 }
 #main .main-body main form .button .button-or h2 {
-  font-size: 30px;
+  font-size: 40px;
   color: #ddd;
+  padding-bottom: 30px;
 }
 #main .main-body main form .button .social-button .button-text {
   padding-bottom: 10px;
 }
 #main .main-body main form .button .social-button .button-text h5 {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 300;
   color: #ddd;
   font-family: "PT Sans";
+  padding-bottom: 10px;
 }
 #main .main-body main form .button .social-button .button-link .button-link-item {
-  height: 20px;
-  width: 20px;
-  margin: 0 12px;
+  height: 40px;
+  width: 40px;
+  margin: 0 20px;
 }
 #main .main-body main form .button .social-button .button-link .button-link-item a img {
   width: 100%;

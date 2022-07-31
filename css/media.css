@@ -137,27 +137,34 @@
     #main .main-body main form .gender-field input {
         margin-right: 0px;
     }
+
     #main .main-body main form .button .sign-up-button .animated-button {
         padding: 20px 100px;
     }
-    #main .main-body main form .button{
+
+    #main .main-body main form .button {
         margin-top: 50px;
         flex-direction: column;
     }
-  .button-or{
-    margin: 20px 0;
-  }
-  #main .main-body main form .button .social-button {
-	padding: 15px 30px;
-}
-#main .main-body main form .button .social-button .button-link .button-link-item {
-	height: 30px;
-	width: 30px;
-	margin: 0 25px;
-}
-#main .main-body main form .button .social-button .button-text {
-	padding-bottom: 20px;
-}
+
+    .button-or {
+        margin: 20px 0;
+    }
+
+    #main .main-body main form .button .social-button {
+        padding: 15px 30px;
+    }
+
+    #main .main-body main form .button .social-button .button-link .button-link-item {
+        height: 35px;
+        width: 35px;
+        margin: 0 25px;
+    }
+
+    #main .main-body main form .button .social-button .button-text {
+        padding-bottom: 20px;
+    }
+
     html,
     body {
         overflow-x: hidden;
@@ -202,16 +209,24 @@
         margin-right: 25px;
     }
 
-    #main .main-body main form .button{
+    #main .main-body main form .button {
         margin-top: 50px;
-        flex-direction: column;
     }
-  .button-or{
-    margin: 20px 0;
-  }
-  #main .main-body main form .button .social-button {
-	padding: 15px 30px;
-}
+    #main .main-body main form .button .sign-up-button .animated-button {
+        padding: 15px 80px;
+        margin: 15px 5px 20px;
+    }
+    .button-or {
+        margin: 20px 0;
+    }
+
+    #main .main-body main form .button .social-button {
+        padding: 15px 0px;
+    }
+    #main .main-body main form .button .social-button .button-link .button-link-item {
+        height: 30px;
+        width: 30px;
+    }
     html,
     body {
         overflow-x: hidden;
@@ -221,6 +236,10 @@
 @media (min-width:497px) and (max-width:575.99px) {
     #main .main-body main form .gender-field .mobile-gen {
         display: inline-block;
+    }
+    #main .main-body main form .button .sign-up-button .animated-button {
+        padding: 15px 120px;
+        margin: 15px 5px 20px;
     }
 }
 
