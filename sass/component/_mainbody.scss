@@ -1,8 +1,5 @@
 #main {
     background: linear-gradient(to right, #41295a, #2f0743);
-    padding-bottom: 180px;
-
-
     .main-body {
         background-color: #3D4067;
         position: relative;
@@ -13,6 +10,7 @@
         padding-bottom: 50px;
         border-radius: 0 0 10px 10px;
         box-shadow: 5px 0 5px #2f0743, -5px 0 5px #41295a;
+        padding-bottom: 180px;
 
         header {
             display: block;
@@ -388,10 +386,10 @@
             width: 100%;
             border-radius: 10px;
             background-color: #524F81;
-            padding: 16px;
+            padding:16px;
             align-self: center;
             text-align: center;
-            margin-top: 32px;
+            margin-top: 50px;
 
             p {
                 color: #cacaca;
